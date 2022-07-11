@@ -57,7 +57,7 @@ body{
 	background-color: #232323;
 }	
 
-.beginning div{
+.beginning h1{
 	color: white;
 	font-size: 40px;
 	font-family: 'Open Sans', sans-serif;
@@ -74,11 +74,18 @@ body{
 .beginning a{
 	font-weight: 700;
 	color: red;
+	text-decoration: underline;
 }
 .beginning span {
 	color: white;
 	font-weight: 700;
 	text-decoration: underline;
+
+}
+.beginning .Whitelist-24h{
+	text-decoration: none;
+		font-size: 25px;
+
 }
 header img{
 	min-width: 600px;
@@ -89,7 +96,7 @@ header img{
 	text-shadow: 3px 3px 5px #000;
 	font-size: 25px;
 	font-weight: 600;
-	font-family: 'Gilroy';
+	font-family: 'Gilroy', sans-serif;
 	text-transform: capitalize;
 }
 .main-story-title{
@@ -106,8 +113,10 @@ header img{
 	font-size: 25px;
 	color: white;
 
+
 }
-.steps div{
+
+.steps h3{
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 40px;
 	color: white;
@@ -124,7 +133,7 @@ header img{
 
 }
 
-footer p{
+footer h2{
 	font-size: 60px;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
